@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<PackageId>GlobalDevTools</PackageId>
+	<Version>0.0.1-beta</Version>
+	<Authors>Robson Darcineli Pedroso</Authors>
+	<Description>
+		Pacote de ferramentas para utilização no desenvolvimento.
+	</Description>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
