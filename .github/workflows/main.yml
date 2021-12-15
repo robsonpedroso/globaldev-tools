@@ -9,7 +9,7 @@ on:
 jobs:
   pack-push:
     env:
-      CAMINHO_PROJETO: ./src/GlobalDev.Tools/GlobalDev.Tools.csproj
+      CAMINHO_PROJETO: /src/GlobalDev.Tools/GlobalDev.Tools.csproj
 
     runs-on: ubuntu-latest
 
