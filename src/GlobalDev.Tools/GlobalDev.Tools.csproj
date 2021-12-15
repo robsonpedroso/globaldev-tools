@@ -3,12 +3,15 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	<PackageId>GlobalDevTools</PackageId>
-	<Version>0.0.1-beta</Version>
+	<Version>1.0.0</Version>
 	<Authors>Robson Darcineli Pedroso</Authors>
-	<Description>
-		Pacote de ferramentas para utilização no desenvolvimento.
+	<Description>Pacote de ferramentas para utilização no desenvolvimento.
 	</Description>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<PackageProjectUrl>https://github.com/robsonpedroso/globaldev-tools</PackageProjectUrl>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<RepositoryUrl>https://github.com/robsonpedroso/globaldev-tools</RepositoryUrl>
+	<PackageTags>c# extensions</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
