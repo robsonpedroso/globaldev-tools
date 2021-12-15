@@ -35,16 +35,6 @@ dotnet build
 1. `docs` - Contém o arquivo Readme.md e caso necessário outras documentações para suporte a execução e manutenção.
 2. `src` - Projeto com o código fonte das ferramentas
 
-### Padrão de Tecnologia utilizado
-
-## Execução dos testes
-
-Não foi gerado
-
-## Publicação
-
-Não esquecer de publicar o xml do projeto para o swagger funcionar corretamente
-
 ## Versionamento
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 

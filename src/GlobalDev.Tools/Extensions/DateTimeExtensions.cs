@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GlobalDev.Tools.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -29,6 +30,24 @@ namespace GlobalDev.Tools.Extensions
         public static TimeSpan Multiply(this TimeSpan multiplicand, double multiplier)
         {
             return TimeSpan.FromTicks((long)(multiplicand.Ticks * multiplier));
+        }
+
+        public static int IntervalDays(this DateTime startDate, DateTime endDate)
+        {
+            var interval = endDate - startDate;
+            return interval.Days;
+        }
+
+        public static double IntervalHours(this DateTime startDate, DateTime endDate)
+        {
+            var interval = endDate - startDate;
+            return interval.TotalHours;
+        }
+
+        public static IntervalDate Interval(this DateTime startDate, DateTime endDate)
+        {
+            var interval = endDate - startDate;
+            return new IntervalDate(interval);
         }
     }
 }
