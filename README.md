@@ -7,10 +7,15 @@ Pacote de ferramentas para ajudar no desenvolvimento de projetos
 Segue algumas informações de como utilizar
 
 [Extensão de Strings](https://github.com/robsonpedroso/globaldev-tools/blob/main/docs/string_extensions.md)
+
 [Extensão de Enum](https://github.com/robsonpedroso/globaldev-tools/blob/main/docs/enum_extensions.md)
+
 [Extensão de Guid](https://github.com/robsonpedroso/globaldev-tools/blob/main/docs/guid_extensions.md)
+
 [Extensão de List](https://github.com/robsonpedroso/globaldev-tools/blob/main/docs/list_extensions.md)
+
 [Extensão de Objetos genéricos](https://github.com/robsonpedroso/globaldev-tools/blob/main/docs/objects_extensions.md)
+
 [Extensão de DateTime](https://github.com/robsonpedroso/globaldev-tools/blob/main/docs/datetime_extensions.md)
 
 ## Introdução
